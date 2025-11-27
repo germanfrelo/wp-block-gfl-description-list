@@ -1,0 +1,28 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gfl/dd",
+	"version": "0.1.0",
+	"title": "Description Definition",
+	"category": "text",
+	"icon": "block-default",
+	"description": "The description definition or value of the preceding term.",
+	"example": {},
+	"keywords": [
+		"dd",
+		"definition",
+		"description",
+		"glossary",
+		"key-value",
+		"metadata"
+	],
+	"parent": ["gfl/dl-item"],
+	"supports": {
+		"html": false,
+		"className": false
+	},
+	"textdomain": "gfl-block-description-list",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

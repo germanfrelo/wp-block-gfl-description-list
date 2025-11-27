@@ -1,21 +1,12 @@
 import { registerBlockType } from "@wordpress/blocks";
+import { dlItemIcon } from "../icons.js";
 import metadata from "./block.json";
 import Edit from "./edit.js";
 import "./editor.css";
 import Save from "./save.js";
 import "./style.css";
 
-/**
- * (Optional) Defines a custom SVG icon for the block.
- *
- * To use the fallback Dashicon (from block.json):
- * - Keep 'customSVGIcon' set to 'null'.
- *
- * To use a custom SVG:
- * - Replace 'null' with your SVG. E.g.:
- * const customSVGIcon = (<svg>{...}</svg>);
- */
-const customSVGIcon = null;
+const customSVGIcon = dlItemIcon;
 
 registerBlockType(metadata.name, {
 	...metadata,

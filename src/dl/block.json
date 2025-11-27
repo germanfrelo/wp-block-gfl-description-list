@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gfl/dl",
+	"version": "0.1.0",
+	"title": "Description List",
+	"category": "text",
+	"icon": "block-default",
+	"description": "A list of terms and their definitions. Common uses: implement a glossary or to display metadata (a list of key-value pairs).",
+	"example": {},
+	"keywords": [
+		"dd",
+		"definitions",
+		"descriptions",
+		"dl",
+		"dt",
+		"glossary",
+		"key-value",
+		"metadata",
+		"terms"
+	],
+	"allowedBlocks": ["gfl/dl-item"],
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gfl-block-description-list",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
