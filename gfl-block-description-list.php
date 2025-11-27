@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Block: Description List
+ * Plugin Name:       GFL Block: Description List
  * Description:       A block for creating a list of groups of terms and definitions. Common uses are to implement a glossary or to display metadata (a list of key-value pairs).
  * Version:           1.0.0
  * Requires at least: 6.8
