@@ -8,7 +8,7 @@
 	"bugs": "https://github.com/germanfrelo/wp-block-description-list/issues",
 	"repository": "github:germanfrelo/wp-block-description-list",
 	"license": "GPL-2.0-or-later",
-	"author": "Germán Freixinós López",
+	"author": "Germán Freixinós",
 	"type": "module",
 	"main": "build/index.js",
 	"scripts": {
